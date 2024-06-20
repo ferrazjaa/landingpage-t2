@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Apricots;
+    src: url(../fonte/Apricot\ Regular.ttf);
+}
+
+h1{
+    font-family: 'Apricots', sans-serif;
+    font-size: 10em;
+    color: #daa520;
+    text-shadow: 2px 2px black;
+    margin-bottom: 25px;
+}
+
+p{
+    font-size: 1.1em;
+    text-align: justify;
+    text-indent: 1em;
+    line-height: 1.5;
+}
+
+
+
+label{
+    font-weight: 700;
+    margin-right: 10px;
+    font-size: 1.1em;
+}
