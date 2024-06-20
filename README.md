@@ -8,7 +8,7 @@ Aprimorar a landing page desenvolvida na trilha 1, utilizando os conhecimentos a
 
 ## Elementos que obrigatórios:
 - Usado metatags e tags semânticas
-- Feito menu dropdown ou sidebar
+- Feito menu dropdown ou sidebar 
 - Usado pelo menos um card
 - Utilizado botões de link interno ou externo com efeitos (transições ou animações: exemplos)
 - Adicionado imagens com carrossel
