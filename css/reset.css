@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+:root{
+    font-size: 62.5%;
+    --cor-dourada :#daa520; 
+    --cor-azul: #3A4259;
+}
+
+
 body{
     display: flex;
     flex-direction: column;
@@ -24,23 +31,38 @@ a{
 
 h1{
     font-family: 'Apricots', sans-serif;
-    font-size: 10em;
-    color: #daa520;
-    text-shadow: 2px 2px black;
-    margin-bottom: 25px;
+    color: var(--cor-dourada);
 }
 
 p{
-    font-size: 1.1em;
     text-align: justify;
-    text-indent: 1em;
-    line-height: 1.5;
 }
-
-
 
 label{
     font-weight: 700;
-    margin-right: 10px;
-    font-size: 1.1em;
 }
+
+/* MEDIA QUERIES ************************************ */
+@media (min-width: 1024px) {
+    h1{ 
+        font-size: 10rem;
+       text-shadow: .2rem .2rem black;
+        margin-bottom: 2.5rem;
+    }
+
+    p{
+        font-size: 1.1em;
+        text-indent: 1em;
+        line-height: 1.5;
+    }
+    
+    
+    
+    label{
+        margin-right: .1rem;
+        font-size: 1.1rem;
+    }
+    
+}
+
+

@@ -8,8 +8,9 @@
     <!-- Novas tags adicionadas -->
     <meta name="description" content="OdontoJoy - Clínica Odontológica Especializada. Oferecemos serviços odontológicos de excelência para todas as idades, priorizando a felicidade e satisfação dos nossos pacientes.">
     <meta name="keywords" content="Odontologia, Clínica Odontológica, Saúde Bucal, Tratamentos Dentários, Odontopediatria, Prevenção, Ortodônticos, Cirurgias Bucais, Próteses, Implantes, Emergências">
-    <meta name="author" content="OdontoJoy">
+    <meta name="author" content="Jessica Ferraz">
     <meta name="robots" content="index, follow">
+    
     
     <title>OdontoJoy</title>
 
@@ -24,6 +25,7 @@
 
     <!-- LINKS CSS -->
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/style.css">
 
     <!-- LINK FONTAWESOME -->
@@ -34,6 +36,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 
+    
+
 
 </head>
 
@@ -41,30 +45,37 @@
     <header> <!--Início do header-->
 
         <a href="#">
-            <img src="img/logo2.png" alt="logo" width="170">
+            <img src="img/logo2.png" alt="logo">
         </a>
 
+        <!-- botão do menu dropdown -->
+         <div id="menu-dropdown">
+            <button id="menu-toggle">
+                <i class="fa-solid fa-tooth">Menu</i>
+            </button>
+    
+    
+            <nav id="navegacao"><!--Início do menu-->
+    
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#sobre">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#blog">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#reserve">Contato</a>
+                    </li>
+    
+                </ul>
+    
+            </nav><!--Fim do menu-->
+         </div>
 
-
-        <nav><!--Início do menu-->
-
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#sobre">Sobre</a>
-                </li>
-                <li>
-                    <a href="#blog">Blog</a>
-                </li>
-                <li>
-                    <a href="#reserve">Contato</a>
-                </li>
-
-            </ul>
-
-        </nav><!--Fim do menu-->
 
 
         <div class="btn-group">
@@ -74,7 +85,6 @@
 
 
     </header><!--Fim do header-->
-
 
 
     <main>
@@ -297,6 +307,9 @@
 
        <p id="desenvolvido">Criado por Jéssica Ferraz. 2023. Desenvolvido para fins educativos. <br><a href="https://github.com/ferrazjaa" target="_blank" id="size"><i class="fa-brands fa-github redes-icone"></i></a></p>
     </footer>
+
+    <!-- LINK JS -->
+    <script src="js/menu.js"></script>
 </body>
 
 </html>
