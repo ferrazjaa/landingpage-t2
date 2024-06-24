@@ -1,9 +1,10 @@
 /* CABEÇALHO ******************************************************/
 header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-    background-color: rgba(58, 66, 89, 0.88);
+    justify-content: space-between;
+    background-color: rgba(58, 66, 89, 0.88);   
     padding: 1rem 2rem;
     width: 100%;
      /* Para garantir que o header fique acima de outros elementos */
@@ -12,20 +13,27 @@ header a img{
     width: 100px;
 }
 
-#menu-toggle {
-    display: block;
-    background: #daa520;
-    color: #3A4259;
+#menu-toggle, #user {
+    display: inline-block;
+    background:var(--cor-dourada);
+    color: var(--cor-azul);
     font-size: 1.5em;
     border: none;
     padding: 1rem;
     cursor: pointer;
     margin: 1rem 0;
+    border-radius: 50%;
 }
 
-header nav {
+#user{
+    margin-right: 2rem;
+}
+
+
+#navegacao {
     display: none;
     width: 100%;
+    text-align: end;
 }
 
 header nav ul {
@@ -52,30 +60,10 @@ header img {
     margin: 1rem 0 0 0;
 }
 
-.btn-group {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-    margin-top: 10px;
+.btn-group{
+    display:none;
 }
 
-.btn-group button {
-    width: 100%;
-    padding: 1.5rem;
-    font-size: 1.09rem;
-    background-color: #daa520;
-    opacity: 0.8;
-    color: #3A4259;
-    margin-bottom: 1rem;
-    border: none;
-    border-radius: .2rem;
-    cursor: pointer;
-}
-
-.btn-group button:hover {
-    transform: scale(1.1);
-}
 
 /* Media query para telas maiores **********************/
 @media (min-width: 768px) {
@@ -100,11 +88,11 @@ header img {
     }
     
     /* *********************************************** */
-    #menu-toggle {
+    #menu-toggle, #user {
         display: none;
     }
 
-    header nav{
+    #navegacao{
         display: block;
         width: auto;
     }
@@ -125,16 +113,24 @@ header img {
    
     /* botões de entrar e registre-se */
     .btn-group{
-        margin-right: 1.5rem;
+        display: flex;
         flex-direction: row;
         width: auto;
+        margin-right: 1.5rem;
+        
     }
     .btn-group button{
+        width: 100%;
         padding: 1.5rem;
         font-size: 1.75rem;
+        font-weight: 700;
+        background-color: var(--cor-dourada);
+        color: var(--cor-azul);
+        opacity: 0.8;
         margin-left: 1.5rem;
         border:none;
         border-radius: 0.2rem;
+        cursor: pointer;
     }
     
     .btn-group button:hover{
@@ -144,55 +140,4 @@ header img {
 }
 
    
-
-  
-
-
-
-
-/* @media only screen and (min-width: 768px){
-    header{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        background-color: rgba(58, 66, 89, 0.88);
-        position: fixed;
-        top: 0;
-        left: 0;
-        padding: 10px;
-        width: 100%;
-    }
-    
-    header nav ul{
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-    header nav ul li{
-        display: inline;
-        margin-right: 20px;
-    }
-    
-   
-    .btn-group{
-        margin-right: 15px;
-    }
-    .btn-group button{
-        padding: 15px;
-        font-size: 1.09em;
-        background-color: #daa520;
-        
-        opacity: 0.8;
-        color: #3A4259;
-        margin-left: 15px;
-        border:none;
-        border-radius: 2px;
-    }
-    
-    .btn-group button:hover{
-        transform: scale(1.1);
-    }
-}
- */
 
