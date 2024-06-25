@@ -12,7 +12,7 @@
 }
 
 .carousel-item {
-    min-width: 100%;
+    min-width: fit-content;
     padding: 1rem;
     text-align: center;
     background-color: var(--cor-azul);
@@ -74,13 +74,34 @@
 }
 
 #newsletter{
-    margin: 5rem auto 0 auto;
+    margin: 2rem auto 0 auto;
     text-align: center;
     padding: 2rem;
-    width: 50%;
+    width: 60%;
     border: .3rem solid var(--cor-azul);
     box-shadow: 0 .2rem .4rem 0 var(--cor-dourada);
-    border-radius: 20px;
+    border-radius: 2rem;
+}
+
+#newsletter label{
+    font-weight: 700;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+#newsletter input{
+    margin-bottom: 1.5rem;
+    padding: 1.2rem;
+    font-size: 1.4rem;
+}
+
+#newsletter button{
+    padding: 1.2rem;
+    font-weight: 700;
+    background-color: var(--cor-dourada);
+    font-size: 1.4rem;
+    color: var(--cor-azul);
+    border-radius: 3%;
 }
 
 @media (min-width: 768px){
@@ -124,24 +145,23 @@
     /* NEWSLETTER */
     
     #newsletter{
-        margin: 50px auto 0 auto;
+        margin: 5rem auto 0 auto;
         text-align: center;
-        padding: 20px;
+        padding: 2rem;
         width: 50%;
-        border: 3px solid var(--cor-azul);
+        border: .3rem solid var(--cor-azul);
         box-shadow: 0 4px 8px 0 var(--cor-dourada);
-        border-radius: 20px;
+        border-radius: 2rem;
     }
     #newsletter label{
-        font-weight: 700;
-        margin-right: 10px;
-        font-size: 1.1em;
+       font-size: 1.5rem;
+
     }
-    
+
     #newsletter input{
-        margin-right: 10px;
-        padding: 12px;
-        font-size: 1.09em;
+        margin-right: 1rem;
+        padding: 1.2rem;
+        font-size: 1.09rem;
     }
     
     #newsletter button{
@@ -150,6 +170,8 @@
         background-color: var(--cor-dourada);
         font-size: 1.1em;
     }
+    
+    
 }
 
 
