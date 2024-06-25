@@ -13,7 +13,8 @@
 h1{
     font-family: 'Apricots', sans-serif;
     color: var(--cor-dourada);
-    font-size: 8rem;
+    font-size: 7rem;
+    padding: 2rem;
 }
 
 #home h2{

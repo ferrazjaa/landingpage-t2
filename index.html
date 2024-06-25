@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blog.css">
 
     <!-- LINK FONTAWESOME -->
     <script src="https://kit.fontawesome.com/1708746a55.js" crossorigin="anonymous"></script>
@@ -51,7 +52,7 @@
             <img src="img/logo2.png" alt="logo">
         </a>
 
-        
+
         <!-- botão do menu dropdown -->
         <div id="menu-dropdown">
             <span id="user"><i class="fa-solid fa-user" title="conecte-se"></i></span>
@@ -81,7 +82,7 @@
         </div> <!--fim do menu dropdown -->
 
 
-        
+
 
         <div class="btn-group">
             <button>Login</button>
@@ -160,44 +161,67 @@
 
         <section id="blog"><!-- Início seção blog-->
 
-            <div class="container"><!--inicio container-->
-                <div class="item-artigo"><!--inicio item-->
-                    <h3>Saúde bucal dos bebês</h3>
-                    <img src="img/bebê.jpg" alt="bebê com escova de dente">
-                    <p>
-                        A promoção da saúde bucal dos bebês começa durante a gestação, pois algumas bactérias podem ser
-                        transferidas da mãe para o filho.
-                        À medida que os primeiros dentinhos começam a aparecer, por volta dos seis meses, é recomendável
-                        introduzir uma escova de dentes de cerdas macias, projetada especificamente para bebês. A pasta
-                        de dentes utilizada deve conter uma quantidade mínima de flúor e ser adequada para a idade da
-                        criança. Papais devem agendar a primeira visita ao dentista quando os primeiros dentes de leite
-                        aparecerem.</p>
-                    <a href="https://www.colgate.com.br/oral-health/infant-oral-care/safe-and-effective-oral-care-for-your-baby"
-                        target="_blank" rel="noopener noreferrer">Saiba mais!</a>
-                </div><!--fim item-->
+            <div class="carousel"><!--inicio carousel-->
+                <div class="carousel-inner"><!--inicio carousel-inner-->
 
-                <div class="item-artigo"><!--inicio item-->
-                    <h3>Uso correto do fio dental</h3>
+                    <div class="carousel-item"> <!--inicio item-->
+                        <h3>Saúde bucal dos bebês</h3>
+                        <img src="img/bebê.jpg" alt="bebê com escova de dente">
+                        <p>
+                            A promoção da saúde bucal dos bebês começa durante a gestação, pois algumas bactérias podem
+                            ser
+                            transferidas da mãe para o filho.
+                            À medida que os primeiros dentinhos começam a aparecer, por volta dos seis meses, é
+                            recomendável
+                            introduzir uma escova de dentes de cerdas macias, projetada especificamente para bebês. A
+                            pasta
+                            de dentes utilizada deve conter uma quantidade mínima de flúor e ser adequada para a idade
+                            da
+                            criança. Papais devem agendar a primeira visita ao dentista quando os primeiros dentes de
+                            leite
+                            aparecerem.</p>
+                        <a href="https://www.colgate.com.br/oral-health/infant-oral-care/safe-and-effective-oral-care-for-your-baby"
+                            target="_blank" rel="noopener noreferrer">Saiba mais!</a>
+                    </div><!--fim item-->
 
-                    <iframe width="340" height="240" src="https://www.youtube.com/embed/hM4-koredp8?si=4QuBXxKcILbQlJCh"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen>
-                    </iframe>
-                    <p>
-                        O fio dental desempenha um papel crucial na remoção de resíduos alimentares que se alojam entre
-                        os dentes. O não uso do fio dental pode desencadear a decomposição dos alimentos, resultando
-                        desde quadros de gengivite a acúmulo de tártaro e placa bacteriana.
-                        <br>
-                        É essencial incorporar o uso do fio dental em sua rotina diária, especialmente após cada
-                        refeição. Para garantir uma aplicação correta, assista ao vídeo acima, que demonstra a técnica
-                        apropriada para o uso do fio dental. Sua saúde bucal agradecerá por esse cuidado consistente.
-                        <br>
+                    <div class="carousel-item">
+                        <h3>Uso correto do fio dental</h3>
+
+                        <iframe width="340" height="240"
+                            src="https://www.youtube.com/embed/hM4-koredp8?si=4QuBXxKcILbQlJCh"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                        </iframe>
+                        <p>
+                            O fio dental desempenha um papel crucial na remoção de resíduos alimentares que se alojam
+                            entre
+                            os dentes. O não uso do fio dental pode desencadear a decomposição dos alimentos, resultando
+                            desde quadros de gengivite a acúmulo de tártaro e placa bacteriana.
+                            <br>
+                            É essencial incorporar o uso do fio dental em sua rotina diária, especialmente após cada
+                            refeição. Para garantir uma aplicação correta, assista ao vídeo acima, que demonstra a
+                            técnica
+                            apropriada para o uso do fio dental. Sua saúde bucal agradecerá por esse cuidado
+                            consistente.
+                        </p>
                         <a href="https://www.youtube.com/@colgatebrasil" target="_blank">Colgate Brasil</a><br>
 
-                    </p>
-                </div><!--fim item-->
-            </div><!--fim container-->
+
+                    </div>
+
+                    <!-- inicio item carousel -->
+                    <div class="carousel-item">
+
+                    </div><!-- fim item carousel -->
+
+                </div> <!--fim carousel-inner-->
+
+                <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+                <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+            </div><!--fim carousel-->
+
+
 
 
             <!-- NEWSLETTER -->
@@ -344,6 +368,7 @@
 
     <!-- LINK JS -->
     <script src="js/menu.js"></script>
+    <script src="js/carousel.js"></script>
 </body>
 
 </html>
