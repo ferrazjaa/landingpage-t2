@@ -1,79 +1,7 @@
-#home{
-    text-align: center;
-    background-image: url(../img/fundo.jpg);
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center; 
-}
-
-#home h2{
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: var(--cor-dourada);
-    text-shadow:0rem 0rem 1px black;
-}
-
-#chamada button{
-    padding: .3rem;
-    margin-left: auto;
-    background-color: var(--cor-azul);
-    border-radius: 30%;
-}
-
-#chamada button a{
-    color: var(--cor-dourada);
-    font-size: 1.15rem;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-@media (min-width: 768px){
-    /* MAIN ********************************* */
-    main{
-        margin-top: 7rem;
-    }
-
-    #home{
-        margin-top: 8.3rem;   
-    }
-
-    #home h2{
-        font-size: 5rem;
-        text-shadow: .2rem .2rem black;
-    }
-
-    #chamada button{
-        padding: 3rem;
-        margin-left: 3rem;
-    }
-
-    #chamada button a{
-        font-size: 4rem;
-    }
-}
-
-
-/* Seção Inicial ***********************************************************************/
 
 
 
 
-
-
-
-
-#chamada button:hover{
-    background-color: #daa520;
-    transform: scale(1.1);
-    color: #3A4259;
-}
-
-#chamada button a:hover{
-    color: #3A4259; 
-}
 /* SEÇÃO SOBRE********************************************************************************/
 
 .container{

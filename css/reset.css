@@ -29,10 +29,6 @@ a{
     src: url(../fonte/Apricot\ Regular.ttf);
 }
 
-h1{
-    font-family: 'Apricots', sans-serif;
-    color: var(--cor-dourada);
-}
 
 p{
     text-align: justify;
