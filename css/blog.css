@@ -170,22 +170,23 @@
         box-shadow: 0 4px 8px 0 var(--cor-dourada);
         border-radius: 2rem;
     }
-    #newsletter label{
-       font-size: 1.5rem;
 
+    #newsletter label{
+       font-size: 2.2rem;
+       margin-right: 1.2rem;
     }
 
     #newsletter input{
-        margin-right: 1rem;
-        padding: 1.2rem;
-        font-size: 1.09rem;
+        
+        padding: 1rem;
+        font-size: 2rem;
     }
     
     #newsletter button{
-        padding: 12px;
+        padding: 1.5rem;
         font-weight: 700;
         background-color: var(--cor-dourada);
-        font-size: 1.1em;
+        font-size: 2.5rem;
     }
     
     
