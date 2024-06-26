@@ -18,14 +18,14 @@ h1{
 }
 
 #home h2{
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 400;
     color: var(--cor-dourada);
     text-shadow:0rem 0rem 1px black;
 }
 
 #chamada button{
-    padding: 1.5rem;
+    padding: 1.35rem;
     margin-left: auto;
     background-color: var(--cor-azul);
     border-radius: 30%;
