@@ -1,4 +1,7 @@
 /* SEÇÃO BLOG ******************************************************************************** */
+#blog{
+    margin-top: 2rem;
+}
 
 .carousel {
     position: relative;
@@ -13,13 +16,14 @@
 
 .carousel-item {
     min-width: fit-content;
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
     background-color: var(--cor-azul);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: .5rem;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    margin: 1.5rem;
     border-radius: 0.8rem;
-    color: #e2dfd8;
+    color: var(--cor-branca);
+    box-shadow: 1px 1px 5px 2px var(--cor-dourada);
 }
 
 .carousel-item h3{
@@ -56,8 +60,9 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: var(--cor-dourada);
-    color: var(--cor-azul);
+    background-color: transparent; 
+    color: var(--cor-dourada);
+    font-size: 3rem;
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -73,6 +78,7 @@
     right: 10px;
 }
 
+/* NEWSLETTER *************************************** */
 #newsletter{
     margin: 2rem auto 0 auto;
     text-align: center;
@@ -90,7 +96,7 @@
 }
 
 #newsletter input{
-    margin-bottom: 1.5rem;
+    margin: 1.5rem auto;
     padding: 1.2rem;
     font-size: 1.4rem;
 }
@@ -107,40 +113,51 @@
 @media (min-width: 768px){
     #blog{
         margin-top: 7rem;
+        
     }
     
     
     .carousel-item{
         padding: 5rem;
-        margin: 1.5rem;
-        /* margin-top: 15px;
-        margin-left: auto;
-        margin-right: auto;  */
-        box-shadow: 0 8px 16px 0;
-        /* width: 500px;
-        border-radius: 20px; */
-        
+        margin: 3rem;
+        box-shadow: 0 8px 16px 0;   
     }
     
-    .carousel-item h3{
-        font-size: 1.2em;
-        margin-bottom: 15px;
-        
+    .carousel-item h3{ 
+        font-size: 3rem;
+        margin-bottom: 3rem;
     }
     
     .carousel-item :is(img, iframe) {
-        margin-bottom: 15px;
-        margin-left: 40px;
+        min-width: 420px;
+        min-height: 320px;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        box-shadow: 1px 1px 5px 2px var(--cor-dourada);
         
     }
     
-    
+    .carousel-item p{
+        font-size: 2.25rem;
+        text-indent: 1.55rem;
+    }
+
     .carousel-item a{
       
-        font-size:2rem ;
+        font-size:2.25rem ;
         
     }
+
+    .carousel-control {
+        font-size: 4rem;
+    }
     
+    .carousel-control.prev{
+        left: 30px;
+    }
+    .carousel-control.next{
+        right: 30px;
+    }
     
     /* NEWSLETTER */
     
