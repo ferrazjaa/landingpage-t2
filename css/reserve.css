@@ -1,6 +1,6 @@
 /* SEÇÃO RESERVE **************************************************************************/
 #reserve{
-    background-image: linear-gradient(to bottom, var(--cor-azul), (--cor-branca));
+    background-image: linear-gradient(to bottom, var(--cor-azul), var(--cor-branca));
     
     width: 100%;
 }
@@ -11,48 +11,44 @@ fieldset{
 
 /* ****************************FORMULARIO */
 
-
 form{
-    float: left;
-    margin-left: 30px;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    width: 40%;
+    margin: 3rem auto;
+    width: 90%;
     text-align: center;
     color: black;   
 }
 
 form h3{
-    margin-top: 50px;
-    font-size: 2em;
-    margin-bottom: 20px;
+    margin-top: 5rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
     font-weight: 600;
     /* text-shadow: 2px 1px #daa520; */
 }
 
 form label{
-    font-size: 1.3em;
+    font-size: 1.5rem;
     text-transform: uppercase;
     /* text-shadow: 2px 1px #daa520; */
 }
 
 form input, textarea{
-    margin-top: 15px;
+    margin-top: 1.5rem;
     width: 80%;
-    padding: 12px;
+    padding: 1.2rem;
 }
 
 #enviar{
-    background-color: #daa520;
-    color: #3A4259;
+    background-color: var(--cor-dourada);
+    color: var(--cor-azul);
     text-transform: uppercase;
-    font-size: 1.5em;
+    font-size: 1.4rem;
     font-weight: 700;
 }
 
 #enviar:hover{
-    background-color: #3A4259;
-    color: #daa520;
+    background-color: var(--cor-azul);
+    color: var(--cor-dourada);
     transform: scale(1.1);
 }
 
@@ -91,4 +87,35 @@ form input, textarea{
 
 .redes-icone{
     color: #daa520;
+}
+
+@media (min-width: 768px){
+    #reserve{
+        display: flex;
+        flex-direction: row;
+    }
+    form{
+        /* float: left; */
+        margin-left: 3rem;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+        width: 40%;
+        color: black;   
+    }
+    
+    form h3{
+        /* margin-top: 5rem; */
+        font-size: 3rem;
+        /* margin-bottom: 2rem; */
+        font-weight: 600;
+    }
+
+    form label{
+        font-size: 2.2rem;
+    }
+
+    #enviar{
+        font-size: 2.5rem;
+    }
+    
 }
