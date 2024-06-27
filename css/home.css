@@ -14,7 +14,7 @@ h1{
     font-family: 'Apricots', sans-serif;
     color: var(--cor-dourada);
     font-size: 7rem;
-    padding: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 #home h2{

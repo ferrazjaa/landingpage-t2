@@ -3,6 +3,10 @@
     margin-top: 2rem;
 }
 
+.italico{
+    font-style: italic;
+}
+
 .carousel {
     position: relative;
     width: 100%;
@@ -115,11 +119,10 @@
         margin-top: 7rem;
         
     }
-    
-    
+     
     .carousel-item{
         padding: 5rem;
-        margin: 3rem;
+        margin: 10rem;
         box-shadow: 0 8px 16px 0;   
     }
     
@@ -129,8 +132,8 @@
     }
     
     .carousel-item :is(img, iframe) {
-        min-width: 420px;
-        min-height: 320px;
+        width: 420px;
+        height: 320px;
         margin-bottom: 2rem;
         margin-left: auto;
         box-shadow: 1px 1px 5px 2px var(--cor-dourada);
@@ -153,10 +156,10 @@
     }
     
     .carousel-control.prev{
-        left: 30px;
+        left: 10.5rem;
     }
     .carousel-control.next{
-        right: 30px;
+        right: 10.5rem;
     }
     
     /* NEWSLETTER */
