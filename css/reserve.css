@@ -19,10 +19,11 @@ form{
 }
 
 form h3{
-    margin-top: 5rem;
+    margin-top: 6rem;
     font-size: 2rem;
     margin-bottom: 2rem;
     font-weight: 600;
+    color: var(--cor-branca);
     /* text-shadow: 2px 1px #daa520; */
 }
 
