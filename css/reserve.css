@@ -1,16 +1,16 @@
-
 /* SEÇÃO RESERVE **************************************************************************/
 #reserve{
-    margin-top: 70px;
-    background-image: linear-gradient(to bottom, #3A4259, #e2dfd8);
+    background-image: linear-gradient(to bottom, var(--cor-azul), (--cor-branca));
     
     width: 100%;
 }
 
-/* ****************************FORMULARIO */
 fieldset{
     border: none;
 }
+
+/* ****************************FORMULARIO */
+
 
 form{
     float: left;
@@ -91,64 +91,4 @@ form input, textarea{
 
 .redes-icone{
     color: #daa520;
-}
-
-/* RODAPÉ****************************************************************************** */
-footer{
-    background-color: #3A4259;
-    padding: 50px;
-}
-
-#container-rodape{
-    display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr;
-    margin-bottom: 50px;
-    justify-content: space-between;
-    align-items: start;
-}
-
-#container-rodape h2{
-    color: #daa520;
-    font-size: 1.3em;
-    font-weight: 600;
-    margin-bottom:10px;
-}
-#referencias{
-    padding: 0 33px;
-}
-
-#referencias li, #referencias li a{
-    color: #e2dfd8;
-    line-height: 2em;
-}
-
-#referencias li a{
-    font-weight: 600;
-}
-
-#redes-sociais{
-    justify-self: center;
-    margin-left: 30px;
-    text-align: center;
-}
-
-#redes-sociais a{
-    font-size: 2.2em;
-    margin-right: 30px;
-    
-}
-
-#container-rodape #logo{
-    justify-self: right;
-}
-
-footer #desenvolvido{
-    color: #daa520;
-    text-align: center;
-    font-weight: 600;
-    font-size: 1.2em;
-}
-
-#size{
-    font-size: 2em;
 }
