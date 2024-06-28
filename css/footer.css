@@ -1,30 +1,31 @@
 /* RODAPÉ****************************************************************************** */
 footer{
     background-color: var(--cor-azul);
-    padding: 50px;
+    padding: 3.5rem;
 }
 
 #container-rodape{
     display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr;
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
     justify-content: space-between;
     align-items: start;
 }
 
 #container-rodape h2{
-    color: #daa520;
-    font-size: 1.3em;
+    color: var(--cor-dourada);
+    font-size: 2rem;
     font-weight: 600;
-    margin-bottom:10px;
+    margin-bottom:1.5rem;
 }
 #referencias{
-    padding: 0 33px;
+    padding: 3.3rem;
+    grid-row: 2;
 }
 
 #referencias li, #referencias li a{
-    color: #e2dfd8;
-    line-height: 2em;
+    color: var(--cor-branca);
+    line-height: 2.2rem;
+    font-size: 1.5rem;
 }
 
 #referencias li a{
@@ -33,36 +34,84 @@ footer{
 
 #redes-sociais{
     justify-self: center;
-    margin-left: 30px;
+    margin-bottom: 2rem;
     text-align: center;
+    grid-row: 1;
 }
 
 #redes-sociais a{
-    font-size: 2.2em;
-    margin-right: 30px;
+    font-size: 2.2rem;
+    margin-right: 3rem;
     
 }
 
-#container-rodape #logo{
-    justify-self: right;
-}
 
 footer #desenvolvido{
-    color: #daa520;
+    color: var(--cor-dourada);
     text-align: center;
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 1.8rem;
 }
 
 #size{
-    font-size: 2em;
+    font-size: 2.6rem;
+}
+
+#logo{
+    display: none;
 }
 
 @media (min-width: 768px){
-    #reserve{
-        margin-top: 7rem;
-       
+    footer{
+        padding: 5rem;
     }
+    #container-rodape{
+        grid-template-columns: 1.85fr 1.2fr 0.8fr;
+        /* margin-bottom: 50px; */
+        justify-content: space-between;
+        align-items: start;
+    }
+    
+    #container-rodape h2 {
+        font-size: 3rem;
+    }
+
+    #referencias{
+        padding: 0 3.3rem;
+        grid-row: 1;
+        /* grid-row: 2; */
+    }
+
+    #referencias li, #referencias li a{
+        line-height: 2.5;
+        font-size: 2rem;
+    }
+    
+    
+    #redes-sociais{
+        justify-self: center;
+        margin-left: 3rem;
+        text-align: center;
+        /* grid-row: 1; */
+    }
+
+    #redes-sociais a{
+        font-size: 4rem;
+    }
+
+    #logo{
+        display: block;
+
+    }
+
+    #container-rodape #logo{
+        justify-self: right;
+    }
+
+    footer #desenvolvido {
+        font-size: 2.5rem;
+    }
+    
 }
 
 
