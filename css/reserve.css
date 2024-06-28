@@ -23,6 +23,7 @@ form h3{
     font-size: 2rem;
     margin-bottom: 2rem;
     font-weight: 600;
+    text-transform: uppercase;
     color: var(--cor-branca);
     /* text-shadow: 2px 1px #daa520; */
 }
@@ -37,6 +38,7 @@ form input, textarea{
     margin-top: 1.5rem;
     width: 80%;
     padding: 1.2rem;
+    font-size: 1.75rem;
 }
 
 #enviar{
@@ -55,39 +57,40 @@ form input, textarea{
 
 /* *********************CONTATOS */
 .contato{
-    margin-top: 30px;
-    float: right;
+    margin-top: 3rem;
+    
 }
 .contato #contatos, .contato iframe{
-    margin-top: 30px;
+    margin: 3rem 8rem 0 8rem;
     box-shadow: 0 4px 8px 0;
-    margin-right: 75px;
+    /* margin-right: 7.5rem; */
 }
 
 .contato #contatos{
-    padding: 35px;
-    border-radius: 10px;
+    padding: 3.5rem;
+    border-radius: 1rem;
 }
 
 .contato #contatos p, #contatos a{
-    color: #e2dfd8;
-    font-size: 1.2em;
+    color: var(--cor-branca);
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .contato i{
-    margin-right: 15px;
-    font-size: 1.1em;
+    margin-right: 1.5rem;
+    font-size: 2rem;
 }
 
 .contato iframe{
-    margin-bottom: 55px;
-    border-radius: 10px;
+    margin-bottom: 5.5rem;
+    border-radius: 1rem;
     
 }
 
 
 .redes-icone{
-    color: #daa520;
+    color: var(--cor-dourada);
 }
 
 @media (min-width: 768px){
@@ -117,6 +120,11 @@ form input, textarea{
 
     #enviar{
         font-size: 2.5rem;
+    }
+
+    /* CONTATOS ************************************** */
+    .contato{
+        float: right;
     }
     
 }
