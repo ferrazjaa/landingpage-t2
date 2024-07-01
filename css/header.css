@@ -7,11 +7,14 @@ header {
     background-color: rgba(58, 66, 89, 0.88);   
     padding: 1rem 2rem;
     width: 100%;
-     /* Para garantir que o header fique acima de outros elementos */
 }
-header a img{
-    width: 100px;
+
+#logo-header{
+    width: 10rem;
+    margin: 1rem 0 0 0;
 }
+
+
 
 #menu-toggle, #user {
     display: inline-block;
@@ -56,9 +59,6 @@ header nav a {
     font-weight: 700;
 }
 
-header img {
-    margin: 1rem 0 0 0;
-}
 
 .btn-group{
     display:none;
@@ -67,7 +67,7 @@ header img {
 
 /* Media query para telas maiores **********************/
 @media (min-width: 768px) {
-    header {
+    header{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -77,15 +77,14 @@ header img {
         left: 0;
         z-index: 1000;
     }
+    
 
     /* Imagem *************************************** */
-    header a img{
-        width: 170px;
+    
+    #logo-header{
+        width: 17rem;
     }
-    header img {
-        margin-left: 1.5rem;
-        margin-top: 1rem;
-    }
+   
     
     /* *********************************************** */
     #menu-toggle, #user {
