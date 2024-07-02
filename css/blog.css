@@ -7,13 +7,11 @@
     font-style: italic;
 }
 
-/* .carousel {
+.carousel {
     position: relative;
     width: 100%;
     overflow: hidden;
-} */
-
-
+}
 
 .carousel-inner {
     display: flex;
@@ -186,7 +184,7 @@
     /* NEWSLETTER */
     
     #newsletter{
-        margin: 5rem auto 10rem auto;
+        margin: 0 auto 10rem auto;
         text-align: center;
         padding: 2rem;
         width: 50%;
@@ -212,8 +210,13 @@
         font-weight: 700;
         background-color: var(--cor-dourada);
         font-size: 2.5rem;
+        cursor: pointer;
     }
     
+    #newsletter button:hover{
+        transform: scale(1.1);
+        transition: transform 0.3s ease;
+    }
     
 }
 

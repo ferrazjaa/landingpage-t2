@@ -60,7 +60,10 @@ form input, textarea{
     background-color: var(--cor-azul);
     color: var(--cor-dourada);
     transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
+
+
 
 /* *********************CONTATOS */
 .contato{
