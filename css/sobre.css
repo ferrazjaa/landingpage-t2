@@ -8,26 +8,26 @@
    
 }
 
-#sobre .container .item-1{ 
+#sobre .container .sobre-nos{ 
     width: 100%;
     margin: auto;
     padding: 3rem;
     color: var(--cor-branca);
 }
 
-#sobre .container .item-1 h2{
+#sobre .container .sobre-nos h2{
     font-size: 3rem;
     margin-bottom: 1rem;
 }
 
-#sobre .container .item-1 p{
+#sobre .container .sobre-nos p{
     font-size: 1.5rem;
     text-indent: 1rem;
     line-height: 1.5;
     padding: 2rem;
 }
 
-#sobre .container .item-2{
+#sobre .container .tratamentos{
     padding: 3rem;
     margin: 0 auto;
 }
@@ -62,22 +62,22 @@
     .container{
         flex-direction: row;
     }
-    #sobre .container .item-1, .item-2{ 
+    #sobre .container .sobre-nos, .tratamentos{ 
         width: 50%;
         margin: 3rem;
         padding: 5rem;
     }
 
-    #sobre .container .item-1 h2{
+    #sobre .container .sobre-nos h2{
         font-size: 4rem;
     }
 
-    #sobre .container .item-1 p{
+    #sobre .container .sobre-nos p{
         font-size: 2.25rem;
         text-indent: 1.55rem;
     }
 
-    #sobre .container .item-2 {
+    #sobre .container .tratamentos {
         margin: 10rem auto 0 auto;
     }
 
