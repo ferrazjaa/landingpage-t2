@@ -159,34 +159,50 @@
 
 
 
-        <section id="blog"><!-- Início seção blog-->
-            
+        <section id="blog" role="region" aria-labelledby="blog-title"><!-- Início seção blog-->
+            <h2 id="blog-title" hidden>Blog</h2>
 
             <div class="carousel"><!--inicio carousel-->
                 <div class="carousel-inner"><!--inicio carousel-inner-->
 
                     <!--Inicio carousel item-->
-                    <div class="carousel-item">
+                    <article class="carousel-item">
                         <h3>Nossos Pacientes</h3>
-                        <img src="img/aparelho.jpg" alt="mulher usando aparelho">
+                        <figure>
+                            <img src="img/aparelho.jpg" alt="mulher usando aparelho">
+                            <figcaption  class="legendas italico">
+                                A importância do uso da placa oclusal no tratamento de bruxismo
+                            </figcaption>
+                        </figure>
                         <p>Usar uma placa oclusal, plaquinha, é essencial para proteger os dentes dos danos causados pelo bruxismo e aliviar sintomas como dores na mandíbula e dores de cabeça. No consultório, fizemos a moldagem da paciente que ficou feliz por fim nas suas dores de cabeça. Confeccionamos uma placa personalizada, garantindo um ajuste perfeito e o máximo de conforto durante o uso noturno.
                         </p>
-                        <span class="italico">Referência:</span> <a class="italico" href="https://drauziovarella.uol.com.br/doencas-e-sintomas/bruxismo/" target="_blank">Bruxismo</a>
-                    </div> <!--Fim carousel item-->
+                        <span class="italico">Referência:</span> <a class="italico .carousel-link" href="https://drauziovarella.uol.com.br/doencas-e-sintomas/bruxismo/" target="_blank">Bruxismo</a>
+                    </article> <!--Fim carousel item-->
                    
                     <!--Inicio carousel item-->
-                    
-                    <div class="carousel-item">
+                    <article class="carousel-item">
                         <h3>Nossos Pacientes</h3>
-                        <img src="img/gengivite.jpg" alt="antes e depois de uma boca com gengivite">
+                        <figure>
+                            <img src="img/gengivite.jpg" alt="antes e depois de uma boca com gengivite">
+                            <figcaption class="legendas italico">
+                                Gengivite: como identificar e tratar
+                            </figcaption>
+                        </figure>
                         <p>Um caso de gengivite tratado no consultório. Na foto de antes, podemos observar gengivas inchadas e vermelhas, características típicas da gengivite, uma inflamação das gengivas causada principalmente pelo acúmulo de placa bacteriana na linha gengival. A foto depois retrata o pós de um tratamento adequado, que inclui uma boa higiene oral e limpeza profissional. Assim, há gengivas saudáveis, com coloração rosada e sem sinais de inflamação. Esse contraste visual destaca a importância de manter uma rotina de cuidados bucais e visitas regulares ao dentista para prevenir e tratar a gengivite de forma eficaz.
                         </p>
-                        <span class="italico">Referência:</span> <a class="italico" href="http://https://www.tuasaude.com/gengivite/#google_vignette" target="_blank" rel="noopener noreferrer">Gengivite</a>
-                    </div><!--Fim do carousel-item-->
+                        <span class="italico">Referência:</span> <a class="italico carousel-link" href="http://https://www.tuasaude.com/gengivite/#google_vignette" target="_blank" rel="noopener noreferrer">Gengivite</a>
+                    </article><!--Fim do carousel-item-->
 
-                    <div class="carousel-item"> <!--inicio item-->
+                    <!--inicio carousel item-->
+                    <article class="carousel-item"> 
                         <h3>Saúde bucal dos bebês</h3>
-                        <img src="img/bebê.jpg" alt="bebê com escova de dente">
+                        <figure>
+                            <img src="img/bebê.jpg" alt="bebê com escova de dente">
+                            <figcaption class="legendas italico">
+                                Saúde bucal dos bebês: como cuidar dos dentes do bebê
+                            </figcaption>
+                        </figure>
+                        
                         <p>
                             A promoção da saúde bucal dos bebês começa durante a gestação, pois algumas bactérias podem
                             ser
@@ -201,9 +217,10 @@
                             leite
                             aparecerem.</p>
                         <a href="https://www.colgate.com.br/oral-health/infant-oral-care/safe-and-effective-oral-care-for-your-baby" target="_blank" rel="noopener noreferrer">Saiba mais!</a>
-                    </div><!--fim item-->
+                    </article><!--fim item-->
 
-                    <div class="carousel-item">
+                    <!--inicio carousel item-->
+                    <article class="carousel-item">
                         <h3>Uso correto do fio dental</h3>
 
                         <iframe width="340" height="240"
@@ -226,7 +243,7 @@
                         </p>
                         <a href="https://www.youtube.com/@colgatebrasil" target="_blank">Colgate Brasil</a><br>
 
-                    </div>
+                    </article>
 
 
                 </div> <!--fim carousel-inner-->
@@ -242,11 +259,19 @@
 
             <!-- NEWSLETTER -->
 
-            <div id="newsletter">
-                <label for="assinar">Receba nossas novidades:</label>
-                <input type="email" id="assinar" placeholder="seuemail@email.com">
-                <button>Assinar!</button>
-            </div>
+            <aside id="newsletter">
+                <h3>Receba nossas 
+                    novidades:</h3>
+                <form action="" id="receba-news">
+                    <!-- <label for="assinar">email:</label> -->
+                    <input type="email" id="assinar" 
+                    placeholder="seuemail@email.com">
+                    <button type="submit">Assinar!</button>
+                </form>
+                
+                
+                
+            </aside>
 
         </section><!-- Fim seção blog-->
 

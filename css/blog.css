@@ -45,6 +45,7 @@
     border-radius: .8rem .8rem 0 0;
     
 }
+
 .carousel-item p{
     font-size: 1.5rem;
     text-indent: 1rem;
@@ -58,6 +59,11 @@
     color: var(--cor-dourada);
     font-size:1.4rem ;
     font-weight: 600;
+}
+
+.legendas{
+    font-size: .75rem;
+    color: var(--cor-dourada);
 }
 
 .carousel-control {
@@ -93,10 +99,21 @@
     border-radius: 2rem;
 }
 
-#newsletter label{
+#newsletter h3{
     font-weight: 700;
     margin: auto;
     font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+#receba-news{
+    /* display: inline; */
+    margin: 1.5rem auto;
+}
+#newsletter label{
+    margin: auto;
+    font-size: 1.4rem;
+    text-transform:lowercase;
 }
 
 #newsletter input{
@@ -139,7 +156,8 @@
         box-shadow: 1px 1px 5px 2px var(--cor-dourada);
         
     }
-    
+
+   
     .carousel-item p{
         font-size: 2.25rem;
         text-indent: 1.55rem;
@@ -149,6 +167,10 @@
       
         font-size:2.25rem ;
         
+    }
+
+    .legendas{
+        font-size: 1.25rem;
     }
 
     .carousel-control {
@@ -174,8 +196,14 @@
         border-radius: 2rem;
     }
 
-    #newsletter label{
+    #newsletter h3{
        font-size: 2.2rem;
+       margin-right: 1.2rem;
+    }
+
+
+    #newsletter label{
+       font-size: 2rem;
        margin-right: 1.2rem;
     }
 
