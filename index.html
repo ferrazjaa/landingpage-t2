@@ -277,8 +277,8 @@
                 <fieldset>
 
                     <!-- Nome -->
-                    <label for="nome">Nome:</label>
-                    <input type="text" name="nome" placeholder="Nome" required>
+                    <label for="nome-reserve">Nome:</label>
+                    <input type="text" name="nome-reserve" id="nome-reserve" placeholder="Nome">
 
                     <!-- Telefone -->
                     <label for="telefone">Telefone:</label>
@@ -286,7 +286,7 @@
 
                     <!-- Email -->
                     <label for="e-mail">Email:</label>
-                    <input type="email" name="e-mail" id="e-mail" placeholder="seuemail@email.com" required>
+                    <input type="email" name="e-mail" id="e-mail" placeholder="seuemail@email.com">
 
                     <!--Texto-->
                     <label for="mensagem">Entre em Contato</label>
@@ -294,8 +294,9 @@
                         placeholder="Escreva sua mensagem ..." spellcheck="true"></textarea>
 
                     <!-- Enviar -->
-                    <input type="submit" value="Enviar" id="enviar">
+                    <input type="submit" value="Enviar" id="enviar" onclick="validacao(event)">
 
+                    <div id="resposta"></div>
                 </fieldset>
 
 
@@ -304,9 +305,9 @@
 
             <div class="contato">
                 <div id="contatos">
-                    <p><i class="fa-solid fa-at redes-icone pulse"></i><a
+                    <p><i class="fa-solid fa-at redes-icone"></i><a
                             href="mailto:consulta@odontojoy.com">consulta@odontojoy.com</a></p>
-                    <p><i class="fa-brands fa-whatsapp redes-icone pulse"></i><a href="tel:+5511999999999">(11)9 9999-9999</a>
+                    <p><i class="fa-brands fa-whatsapp redes-icone"></i><a href="tel:+5511999999999">(11)9 9999-9999</a>
                     </p>
                     <p><i class="fa-solid fa-location-dot redes-icone pulse"></i><a
                             href="https://maps.app.goo.gl/7zSoBoj6wRJpoWXU8" target="_blank" rel="noopener noreferrer">Av dos Dentistas, 2023 -
@@ -434,8 +435,8 @@
     <!-- LINK JS -->
     <script src="js/menu.js"></script>
     <script src="js/hideSticky.js"></script>
-    
     <script src="js/carousel.js"></script>
+    <script src="js/validacao.js"></script>
 </body>
 
 </html>

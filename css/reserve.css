@@ -63,6 +63,13 @@ form input, textarea{
     transition: transform 0.3s ease;
 }
 
+#resposta{
+    margin: 3rem auto;
+    background-color: var(--cor-dourada);
+    color: var(--cor-azul);
+    font-size: 2rem;
+    font-weight: 700;
+}
 
 
 /* *********************CONTATOS */
