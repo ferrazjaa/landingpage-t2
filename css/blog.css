@@ -7,11 +7,13 @@
     font-style: italic;
 }
 
-.carousel {
+/* .carousel {
     position: relative;
     width: 100%;
     overflow: hidden;
-}
+} */
+
+
 
 .carousel-inner {
     display: flex;
@@ -110,11 +112,6 @@
     /* display: inline; */
     margin: 1.5rem auto;
 }
-#newsletter label{
-    margin: auto;
-    font-size: 1.4rem;
-    text-transform:lowercase;
-}
 
 #newsletter input{
     margin: 1.5rem auto;
@@ -130,6 +127,8 @@
     color: var(--cor-azul);
     border-radius: 3%;
 }
+
+/* ******************************************************************************************** */
 
 @media (min-width: 768px){
     #blog{
@@ -198,19 +197,14 @@
 
     #newsletter h3{
        font-size: 2.2rem;
-       margin-right: 1.2rem;
+       margin-top: 1.5rem;
     }
 
-
-    #newsletter label{
-       font-size: 2rem;
-       margin-right: 1.2rem;
-    }
 
     #newsletter input{
-        
         padding: 1rem;
         font-size: 2rem;
+        width: max-content;
     }
     
     #newsletter button{

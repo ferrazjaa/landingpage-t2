@@ -158,9 +158,25 @@
         </section><!-- Fim seção sobre-->
 
 
-
         <section id="blog" role="region" aria-labelledby="blog-title"><!-- Início seção blog-->
             <h2 id="blog-title" hidden>Blog</h2>
+
+            <div class="carousel-wrapper">
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <article carousel-1>
+
+                        </article>
+                        <article carousel-2>
+    
+                        </article>
+                        <article carousel-3>
+    
+                        </article>
+                    </div>
+                    
+                </div>
+            </div>
 
             <div class="carousel"><!--inicio carousel-->
                 <div class="carousel-inner"><!--inicio carousel-inner-->
@@ -243,7 +259,7 @@
                         </p>
                         <a href="https://www.youtube.com/@colgatebrasil" target="_blank">Colgate Brasil</a><br>
 
-                    </article>
+                    </article><!--fim item-->
 
 
                 </div> <!--fim carousel-inner-->
@@ -253,11 +269,7 @@
             </div><!--fim carousel-->
     
             
-
-
-
-
-            <!-- NEWSLETTER -->
+            <!-- NEWSLETTER ****************************************************************** -->
 
             <aside id="newsletter">
                 <h3>Receba nossas 
@@ -276,29 +288,28 @@
         </section><!-- Fim seção blog-->
 
 
-
-
-        <section id="reserve"><!-- Início seção Reserva-->
+        <section id="reserve" role="region" aria-labelledby="reserve-title"><!-- Início seção Reserva-->
             <form>
-                <h2>Marque sua consulta!</h2>
+                <legend hidden>Formulário para marcação de consulta</legend>
+                <h2 id="reserve-title">Marque sua consulta!</h2>
                 <fieldset>
 
                     <!-- Nome -->
-                    <label for="nome">Nome:</label><br>
-                    <input type="text" name="nome" placeholder="Nome" required><br><br>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" placeholder="Nome" required>
 
                     <!-- Telefone -->
-                    <label for="telefone">Telefone:</label><br>
-                    <input type="tel" name="telefone" id="telefone" placeholder="(11)9 9999-9999"><br><br>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="(11)9 9999-9999">
 
                     <!-- Email -->
-                    <label for="e-mail">Email:</label><br>
-                    <input type="email" name="e-mail" id="e-mail" placeholder="seuemail@email.com" required><br><br>
+                    <label for="e-mail">Email:</label>
+                    <input type="email" name="e-mail" id="e-mail" placeholder="seuemail@email.com" required>
 
                     <!--Texto-->
                     <label for="mensagem">Entre em Contato</label>
                     <textarea name="mensagem" id="mensagem" cols="50" rows="10"
-                        placeholder="Escreva sua mensagem ..."></textarea>
+                        placeholder="Escreva sua mensagem ..." spellcheck="true"></textarea>
 
                     <!-- Enviar -->
                     <input type="submit" value="Enviar" id="enviar">
@@ -316,7 +327,7 @@
                     <p><i class="fa-brands fa-whatsapp redes-icone"></i><a href="tel:+5511999999999">(11)9 9999-9999</a>
                     </p>
                     <p><i class="fa-solid fa-location-dot redes-icone"></i><a
-                            href="https://maps.app.goo.gl/7zSoBoj6wRJpoWXU8" target="_blank">Av dos Dentistas, 2023 -
+                            href="https://maps.app.goo.gl/7zSoBoj6wRJpoWXU8" target="_blank" rel="noopener noreferrer">Av dos Dentistas, 2023 -
                             São Paulo (SP)</a></p>
                     <p>
                 </div>
@@ -364,7 +375,7 @@
 
                     <li>
                         <a
-                            href="https://pxhere.com/en/photo/723372?utm_content=shareClip&utm_medium=referral&utm_source=pxhere">Photo
+                            href="https://pxhere.com/en/photo/723372?utm_content=shareClip&utm_medium=referral&utm_source=pxhere" target="_blank" rel="noopener noreferrer">Photo
                             by form PxHere</a>
                     </li>
 
@@ -388,18 +399,18 @@
                         vídeo</a>
                     </li>
                     <li>
-                        Carrossel baseado em <a href="https://www.w3schools.com/howto/howto_js_slideshow.asp" target="_blank"> How to Slideshow - W3Schools</a>
+                        Carrossel baseado em <a href="https://www.w3schools.com/howto/howto_js_slideshow.asp" target="_blank" rel="noopener noreferrer"> How to Slideshow - W3Schools</a>
                     </li>
                     <li>
-                        <a href="https://br.freepik.com/fotos-gratis/paciente-do-sexo-feminino-usando-aparelho_8404557.htm?query=dentes%20antes%20e%20depois#from_view=detail_alsolike" target="_blank">Imagem de wavebreakmedia_micro</a> no Freepik
-                    </li>
-
-                    <li>
-                        <a href="https://commons.wikimedia.org/wiki/File:Gingivitis-before-and-after-3.jpg" target="_blank">Onetimeuseaccount</a>, CC0, via Wikimedia Commons
+                        <a href="https://br.freepik.com/fotos-gratis/paciente-do-sexo-feminino-usando-aparelho_8404557.htm?query=dentes%20antes%20e%20depois#from_view=detail_alsolike" target="_blank" rel="noopener noreferrer">Imagem de wavebreakmedia_micro</a> no Freepik
                     </li>
 
                     <li>
-                        <a href="https://drauziovarella.uol.com.br/doencas-e-sintomas/bruxismo/" target="_blank">Bruxismo</a> por por Maria Helena Varella Bruna
+                        <a href="https://commons.wikimedia.org/wiki/File:Gingivitis-before-and-after-3.jpg" target="_blank" rel="noopener noreferrer">Onetimeuseaccount</a>, CC0, via Wikimedia Commons
+                    </li>
+
+                    <li>
+                        <a href="https://drauziovarella.uol.com.br/doencas-e-sintomas/bruxismo/" target="_blank" rel="noopener noreferrer">Bruxismo</a> por por Maria Helena Varella Bruna
                     </li>
 
                     <li>
@@ -417,9 +428,9 @@
 
             <div id="redes-sociais"><!--Inicio redes sociais-->
                 <h2>Siga-nos nas redes sociais</h2>
-                <a href=""><i class="fa-brands fa-instagram redes-icone"></i></a>
-                <a href=""><i class="fa-brands fa-facebook redes-icone"></i></a>
-                <a href=""><i class="fa-brands fa-tiktok redes-icone"></i></a>
+                <a href=""><i class="fa-brands fa-instagram redes-icone" aria-label="Instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook redes-icone" aria-label="Facebook"></i></a>
+                <a href=""><i class="fa-brands fa-tiktok redes-icone" aria-label="TikTok"></i></a>
 
             </div><!--Fim redes sociais-->
 
@@ -431,8 +442,8 @@
         </div><!--fim do container rodape-->
 
         <p id="desenvolvido">Criado por Jéssica Ferraz. 2024. Desenvolvido para fins educativos. <br><a
-                href="https://github.com/ferrazjaa" target="_blank" id="size"><i
-                    class="fa-brands fa-github redes-icone"></i></a></p>
+                href="https://github.com/ferrazjaa" target="_blank" id="size" rel="noopener noreferrer"><i
+                    class="fa-brands fa-github redes-icone" aria-label="GitHub"></i></a></p>
     </footer>
 
     <!-- LINK JS -->
