@@ -46,7 +46,7 @@
 </head>
 
 <body>
-    <header> <!--Início do header-->
+    <header id="header"> <!--Início do header-->
 
         <a href="#">
             <img id="logo-header" src="img/logo2.png" alt=" OndontoJoy logo">
@@ -95,14 +95,14 @@
 
     <main>
 
-        <section id="home"><!-- Início seção Home-->
+        <section id="home" role="region" aria-labelledby="home-title"><!-- Início seção Home-->
             <div class="titulo">
-                <h1>OdontoJoy</h1>
+                <h1 id="home-title" >OdontoJoy</h1>
                 <h2>Clínica Odontológica Especializada </h2>
             </div>
 
             <div id="chamada">
-                <button><a href="#reserve">Agende</a></button>
+                <a href="#reserve" class="botao-chamada">Agende</a>
             </div>
 
         </section><!-- Fim seção Home-->
@@ -381,6 +381,10 @@
                         <a href="http://https://www.tuasaude.com/gengivite/#google_vignette" target="_blank" rel="noopener noreferrer">Gengivite</a> por Cassiano Scapini
                     </li>
 
+                    <li>
+                        <a href="https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp" target="_blank" rel="noopener noreferrer">How to - Hide Menu on Scroll</a> por W3Schools
+                    </li>
+
                 </ul>
 
             </div><!--Fim referencias-->
@@ -408,6 +412,7 @@
 
     <!-- LINK JS -->
     <script src="js/menu.js"></script>
+    <script src="js/hideSticky.js"></script>
     
     <script src="js/carousel.js"></script>
 </body>

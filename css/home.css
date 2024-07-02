@@ -25,7 +25,7 @@ h1{
     text-shadow:0rem 0rem 1px black;
 }
 
-#chamada button{
+/* #chamada button{
     padding: 1.35rem;
     margin-left: auto;
     background-color: var(--cor-azul);
@@ -33,6 +33,18 @@ h1{
 }
 
 #chamada button a{
+    color: var(--cor-dourada);
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+} */
+
+.botao-chamada{
+    display: inline-block;
+    padding: 1.35rem;
+    margin-left: auto;
+    background-color: var(--cor-azul);
+    border-radius: 30%;
     color: var(--cor-dourada);
     font-size: 3rem;
     text-transform: uppercase;
@@ -61,25 +73,17 @@ h1{
         text-shadow: .2rem .2rem black;
     }
 
-    #chamada button{
+
+    .botao-chamada{
         padding: 3rem;
         margin-left: 3rem;
-    }
-
-    #chamada button a{
         font-size: 4rem;
     }
+
+    .botao-chamada:hover{
+        background-color: var(--cor-dourada);
+        transform: scale(1.1);
+        color: var(--cor-azul);
+        transition: transform 0.3s ease;
+    }
 }
-
-
-#chamada button:hover{
-    background-color: #daa520;
-    transform: scale(1.1);
-    color: #3A4259;
-}
-
-#chamada button a:hover{
-    color: #3A4259; 
-}
-
-
