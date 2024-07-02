@@ -69,6 +69,7 @@ form input, textarea{
     color: var(--cor-azul);
     font-size: 2rem;
     font-weight: 700;
+    border-radius: 2rem;
 }
 
 

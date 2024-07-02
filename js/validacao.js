@@ -9,7 +9,7 @@ function validacao(event) {
         return;
     }
 
-    document.getElementById('resposta').innerText = `${nome}, obrigada por entrar em contato! <br> Assim que possível retornaremos.`;
+    document.getElementById('resposta').innerText = `${nome}, obrigada por entrar em contato! Retornaremos em breve.`;
 
     return false;
 
