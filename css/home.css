@@ -1,4 +1,4 @@
-#home{
+#home {
     text-align: center;
     background-image: url(../img/fundo.jpg);
     background-size: cover;
@@ -10,39 +10,23 @@
     align-items: center; 
 }
 
-h1{
+h1 {
     font-family: 'Apricots', sans-serif;
     color: var(--cor-dourada);
     font-size: 7rem;
     padding: 1.5rem;
-
 }
 
-#home h2{
+#home h2 {
     font-size: 3.5rem;
     font-weight: 400;
     color: var(--cor-dourada);
-    text-shadow:0rem 0rem 1px black;
+    text-shadow: 0rem 0rem 1px black;
 }
 
-/* #chamada button{
-    padding: 1.35rem;
-    margin-left: auto;
-    background-color: var(--cor-azul);
-    border-radius: 30%;
-}
-
-#chamada button a{
-    color: var(--cor-dourada);
-    font-size: 3rem;
-    text-transform: uppercase;
-    font-weight: 700;
-} */
-
-.botao-chamada{
+.botao-chamada {
     display: inline-block;
     padding: 1.35rem;
-    margin-left: auto;
     background-color: var(--cor-azul);
     border-radius: 30%;
     color: var(--cor-dourada);
@@ -51,36 +35,35 @@ h1{
     font-weight: 700;
 }
 
-@media (min-width: 768px){
-    /* MAIN ********************************* */
-    main{
+/* Media query para telas maiores **********************/
+@media (min-width: 768px) {
+    main {
         margin-top: 7rem;
     }
 
-    #home{
-        margin-top: 8.3rem;  
-        justify-content: space-around; 
+    #home {
+        margin-top: 8.3rem;
+        justify-content: space-around;
     }
 
-    h1{ 
+    h1 {
         font-size: 12rem;
-       text-shadow: .2rem .2rem .1rem black;
+        text-shadow: 0.2rem 0.2rem 0.1rem black;
         margin-bottom: 2.5rem;
     }
 
-    #home h2{
+    #home h2 {
         font-size: 6rem;
-        text-shadow: .2rem .2rem black;
+        text-shadow: 0.2rem 0.2rem black;
     }
 
-
-    .botao-chamada{
+    .botao-chamada {
         padding: 3rem;
         margin-left: 3rem;
         font-size: 4rem;
     }
 
-    .botao-chamada:hover{
+    .botao-chamada:hover {
         background-color: var(--cor-dourada);
         transform: scale(1.1);
         color: var(--cor-azul);

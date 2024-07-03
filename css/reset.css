@@ -5,7 +5,7 @@
 }
 
 :root{
-    font-size: 62.5%;
+    font-size: 42%;
     --cor-dourada :#daa520; 
     --cor-azul: #3A4259;
     --cor-branca: #e2dfd8;
@@ -47,8 +47,35 @@ label{
   }
   
   .pulse {
-    animation: pulse 2s infinite;
+    animation: pulse 1s infinite;
   }
   
+  /* MEDIAS QUERIES *************************************************************************** */
+  @media (min-width: 576px) {
+    :root {
+        font-size: 46%;
+    }
+    
+}
 
+@media (min-width: 768px) {
+    :root {
+        font-size: 50%;
+    }
+    
+}
 
+@media (min-width: 992px) {
+    :root {
+        font-size: 54%;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    :root {
+        font-size: 62.5%;
+    }
+    
+   
+}
