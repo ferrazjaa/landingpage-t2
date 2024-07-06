@@ -2,7 +2,7 @@
     text-align: center;
     background-image: url(../img/fundo.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -44,12 +44,13 @@ h1 {
     #home {
         margin-top: 8.3rem;
         justify-content: space-around;
+        height: 100vh;
     }
 
     h1 {
         font-size: 12rem;
         text-shadow: 0.2rem 0.2rem 0.1rem black;
-        margin-bottom: 2.5rem;
+        /* margin-bottom: 2.5rem; */
     }
 
     #home h2 {
@@ -59,7 +60,7 @@ h1 {
 
     .botao-chamada {
         padding: 3rem;
-        margin-left: 3rem;
+        margin-bottom: 3rem;
         font-size: 4rem;
     }
 
