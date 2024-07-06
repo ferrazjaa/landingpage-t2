@@ -16,19 +16,19 @@
 }
 
 #sobre .container .sobre-nos h2{
-    font-size: 2.5rem;
+    font-size: 2.95rem;
     margin-bottom: 1rem;
 }
 
 #sobre .container .sobre-nos p{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     text-indent: 1rem;
     line-height: 1.5;
-    padding: 1.5rem;
+    padding: 1.95rem;
 }
 
 #sobre .container .tratamentos{
-    padding: 2rem;
+    padding: 3rem;
     margin: 0 auto;
 }
 
@@ -42,19 +42,19 @@
 }
 
 #caixa h3{
-    padding-top: 2.5rem;
-    margin-bottom: 1.5rem;
-    font-size: 2.5rem;
+    padding-top: 2.95rem;
+    margin-bottom: 2rem;
+    font-size: 2.95rem;
 }
 
 #caixa ul{
     list-style: none;    
-    padding-bottom: 2.5rem;
+    padding-bottom: 2.85rem;
 }
 
 #caixa ul li{
-    padding: .5rem;
-    font-size: 1.25rem;
+    padding: .7rem;
+    font-size: 1.75rem;
 }
 
 /* MEDIA QUERIES ********************************** */
@@ -64,17 +64,17 @@
     }
     #sobre .container .sobre-nos, .tratamentos{ 
         width: 50%;
-        margin: 2rem;
-        padding: 3rem;
+        margin: 3rem;
+        padding: 5rem;
     }
 
     #sobre .container .sobre-nos h2{
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     #sobre .container .sobre-nos p{
-        font-size: 1.75rem;
-        text-indent: 1.25rem;
+        font-size: 2.25rem;
+        text-indent: 1.55rem;
     }
 
     #sobre .container .tratamentos {
@@ -84,21 +84,21 @@
     #caixa{
         
         width: 75%;
-        margin-top: 1rem;
+        margin-top: 1.5rem;
         box-shadow: 0 4px 8px 0;
     }
 
     #caixa h3{
-        padding-top: 4rem;
-        font-size:3rem;
+        padding-top: 4.95rem;
+        font-size:3.75rem;
     }
 
     #caixa ul{
         list-style: none;    
-        padding-bottom: 4rem;
+        padding-bottom: 5.5rem;
     }
     #caixa ul li{
-        padding: .75rem;
-        font-size: 2rem;
+        padding: 1rem;
+        font-size: 3rem;
     }
 }
